@@ -1,0 +1,64 @@
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: rgb(66, 66, 66);
+    color: orangered;
+    text-align: center;
+    padding: 20px; 
+}
+
+
+nav ul {
+    background-color: rgb(255, 94, 35);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    background-color: rgb(255, 94, 35);
+    color: black;
+    margin-right: 20px;
+}
+
+form {
+    text-align: right;
+    margin-right: 0px;
+    margin-top: 0px;
+    background-color: rgb(255, 94, 35);
+}
+
+.destaque {
+    background-color: orangered;
+    color: rgb(66, 66, 66);
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+}
+
+.produtos {
+    margin-left: 10px;
+    background-color: white;
+    color: orangered;
+    
+}
+
+footer {
+    background-color: orangered;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+
+}
+

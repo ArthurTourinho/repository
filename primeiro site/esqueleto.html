@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiro projeto Front-end</title>
+    <link rel="stylesheet" href="layout.css"> 
+    <!--lista de elementos interessantes para inserir no site:
+        - menu de redes sociais que abre as opções com ícones de cada uma. (ou colocar as redes sociais no rodapé com o símbolo de cada uma como link)
+        - fiz a barra de pesquisa a partir de instruções mas ainda não compreendi completamente a estrutura.
+        - Dúvida: como transformar os itens do "monte seu pc" em menus que redirecionam a submenus que redirecionam à página?
+        - Dúvida: no caso eu tenho dois "nav" no código html. como faço para adereçar corretamente cada um no css?
+        - perguntar diferença entre usar a própria tag no css, usar um seletor de classe ou usar um ID para referenciar
+        - tirar dúvida da questão 2 da parte atividade de css
+        - não consigo achar a search bar no css
+        -
+        -
+        -
+    -->
+</head>
+<body>
+    <header>
+        <H1>Muruca's house</H1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="https://www.instagram.com/tourinhoarthur/">Instagram</a></li>
+            <li><a href="https://www.youtube.com/channel/UCv_T6fWNlrj6p2wi7Qmh3yQ">YouTube</a></li>
+            <li><a href="https://www.twitch.tv/muruca7">Twitch</a></li>
+        </ul>
+    </nav>
+    <search>
+        <form action="./search/">
+            <label for="produtos">Encontre produtos</label>
+            <input type="search" id="produtos" name="q">
+            <button type="submit">Procurar</button>
+        </form>
+    </search>
+    <main>
+        <section class="destaque">
+            <h2>A loja do seu streamer favorito</h2>
+        </section>
+        <section class="produtos">
+            <h2>Monte seu pc</h2>
+            <ul>
+                <li><a href="https://www.terabyteshop.com.br">Todos os produtos</a></li>
+                <li><a href="https://www.terabyteshop.com.br/hardware/processadores">Processadores</a></li>
+                <li><a href="https://www.terabyteshop.com.br/hardware/placas-de-video">Placas de vídeo</a></li>
+                <li><a href="https://www.terabyteshop.com.br/hardware/placas-mae">Placas mãe</a></li>
+                <li><a href="https://www.terabyteshop.com.br/hardware/memorias">Memórias RAM</a></li>
+                <li><a href="https://www.terabyteshop.com.br/hardware/hard-disk">Armazenamento</a></li>
+                <li><a href="https://www.terabyteshop.com.br/hardware/fontes">Fontes</a></li>
+                <li><a href="https://www.terabyteshop.com.br/gabinetes">Gabinetes</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+       <p>Arthur Tourinho Duarte</p>
+       <p>ADS 2023.2</p>
+    </footer>
+</body>
+</html>
